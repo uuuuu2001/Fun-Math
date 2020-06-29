@@ -1,0 +1,364 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    background-image: url('./assets/bg.png');
+
+    border-style: groove;
+    margin-left: 0px;
+    width: 400px;
+    height:  700px;
+    text-align: center;
+    display: flex;
+    position: relative;
+}
+.start {    
+    width: 360px;
+    height: 680px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 360px;
+    height: 680px;  
+    display: inline-block;
+    position: absolute;
+    
+}
+.banner {
+    background-image: url('./assets/inStart/banner.png');
+    width: 300px;
+    height: 105px;
+    
+    margin-top: 35px;
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+}
+.best-score {
+    color: #fff;
+    font-family: monospace;
+    font-weight: inherit;
+    width: 300px;
+    height: 100px;
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+}
+.buttons {
+    width: 240px;
+    height: 240px;
+    margin-top: 35px;
+    display: inline-block;
+
+}
+.grp {
+    width: 225px;
+    height: 75px;
+    display: inline-block;
+    margin-top: 0px;
+}
+.star-icon {
+    background-image: url('./assets/inStart/star-icon.png');
+    width: 50px;
+    height: 50px;
+    margin-right: 17.5px;
+    background-size: cover;
+    display: inline-block;
+}
+.crown-icon {
+    background-image: url('./assets/inStart/crown-icon.png');
+    width: 50px;
+    height: 50px;
+    margin-right: 17.5px;
+    background-size: cover;
+    display: inline-block;
+}
+.medal-icon {
+    background-image: url('./assets/inStart/medal-icon.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    display: inline-block;
+}
+.play-icon {
+    background-image: url('./assets/inStart/play-icon.png');
+    width: 185px;
+    height: 50px;
+    background-size: cover;
+    display: inline-block;
+}
+.setting-icon {
+    background-image: url('./assets/inStart/setting-icon.png');
+    width: 50px;
+    height: 50px;
+    margin-right: 17.5px;
+    background-size: cover;
+    display: inline-block;
+}
+.sound-icon {
+    background-image: url('./assets/inStart/sound-icon.png');
+    width: 50px;
+    height: 50px;
+    margin-right: 17.5px ;
+    background-size: cover;
+    display: inline-block;
+}
+.no-ads-icon {
+    background-image: url('./assets/inStart/no-ads-icon.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    display: inline-block;
+}
+
+
+
+.game {
+    width: 360px;
+    height: 680px;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* //position: absolute; */
+    display: flex;
+    position: relative;
+}
+.game .score {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+}
+.game .pause-icon {
+    background-image: url('./assets/pause-icon.png');
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+.game .bubble {
+    width: 120px;
+    height: 120px;
+    background-image: url('./assets/buble.png');
+    background-size: cover;
+    position: absolute;
+    text-align: center;
+    /* margin-top: 650px; */
+    left: 120px !important;
+    bottom: 70px;
+}
+
+.game .bubble .question {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+
+.game .answer-box {
+    width: 330px;
+    height: 70px;
+    margin-left : 15px;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.game .answer-box .answer-item {
+    
+    width: 30%;
+    height: 50px;
+    border-radius: 16px;
+    margin-right: 15px;
+    background-color: rgb(1, 149,255);
+}
+
+.active {
+    background-color: blue !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.pause-board {
+    background-image: url('./assets/pause-board.png');
+    width: 250px;
+    height: 235px;
+    vertical-align: middle;
+    margin: auto;
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+    /* display: none; */
+    cursor: pointer;
+    
+}
+.button-grp {
+    width: 225px;
+    height: 75px;
+    display: inline-block;
+    margin-top: 100px;
+    /* text-align: center; */
+}
+.home-icon {
+    background-image: url('./assets/home-icon.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-right: 10px;
+    display: inline-block;
+}
+.resume-icon {
+    background-image: url('./assets/resume-icon.png');
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin-right: 10px;
+    display: inline-block;
+}
+.reverse-icon {
+    background-image: url('./assets/reverse-icon.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    display: inline-block;
+}
+
+
+.gob-bg {
+    background-color: rgb(64, 85, 114);
+    width: 400px;
+    height: 700px;
+    opacity: 80%;
+    position: absolute;
+}
+.game-over-board {
+    background-image: url('./assets/game-over-board.png');
+    width: 250px;
+    height: 320px;
+    opacity: 100%  !important;
+    background-size: cover;
+    top: 190px;
+    left: 75px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+}
+.score {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+.best-score-1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: greenyellow;
+    text-align: center;
+}
+.game-mode {
+    font-size: 20px;
+    color:blue;
+    text-align: center;
+}
+.button-grp-1 {
+    width: 225px;
+    height: 75px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.share-icon {
+    background-image: url('./assets/share-icon.png');
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-size: cover;
+    display: inline-block;
+}
+.video-icon {
+    background-image: url('./assets/video-icon.png');
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    background-size: cover;
+    display: inline-block;
+}
+.start-link-icon {
+    background-image: url('./assets/start-link-icon.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    display: inline-block;
+}
+
+
+.options {
+    background-image: url('./assets/options-board-2.png');
+    background-size: cover;
+    width: 250px;
+    height: 368px;
+    display: none;
+    margin-top: 185px;
+    margin-left: 75px;
+    position: absolute;
+}
+.button-grp-0 {
+    margin-top: 80px !important;
+    margin: auto;
+    width: 165px;
+    height: 210px;
+    
+    
+    
+}
+.easy-icon {
+    display: inline-block;
+    background-image: url('./assets/easy-icon.png');
+    background-size: cover;
+    width: 146px;
+    height: 45px;
+}
+.standard-icon {
+    background-image: url('./assets/standard-icon.png');
+    background-size: cover;
+    width: 146px;
+    height: 45px !important;
+    display: inline-block;
+}
+.geek-icon {
+    background-image: url('./assets/geek-icon.png');
+    background-size: cover;
+    width: 146px;
+    height: 45px !important;
+    display: inline-block;
+}
+.time-table-icon {
+    background-image: url('./assets/time-table-icon.png');
+    background-size: cover;
+    width: 146px;
+    display: inline-block;
+    height: 45px;
+}
+.animation-frame {
+    display: block !important;
+}
+.animation-frame-1 {
+    display: none !important;
+}
