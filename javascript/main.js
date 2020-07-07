@@ -7,7 +7,7 @@ class main {
         this.tag.className = 'main';
         this.start = new start(this);
         this.options = new options(this);
-        // this.gameOver = new gameOver(this);
+        
         
         document.body.appendChild(this.tag);
     }

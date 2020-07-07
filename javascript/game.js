@@ -46,9 +46,10 @@ class game {
         this.result = this.data.result;
         this.question = this.data.question;
     }
-    updateStatusWhen() {
-        this.game = new game(this);
-        this.init();
+    updateStatusWhenCorrect() {
+        initBubble();
+        this.initAnswer();
+        initData();
     }
     check(number) {
         if(number == this.result) {
