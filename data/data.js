@@ -54,7 +54,39 @@ var data = {
             question: "10 x 2",
             result: 20,
             selects: [18, 20, 22]
+        },
+        {
+            question: "5 x 6",
+            result: 30,
+            selects: [28, 30, 32]
+        },
+        {
+            question: "2 x 2",
+            result: 4,
+            selects: [2, 4, 6]
+        },
+        {
+            question: "6 - 2",
+            result: 4,
+            selects: [4, 6, 2]
+        },
+        {
+            question: "10 - 9",
+            result: 1,
+            selects: [1, 3, 5]
+        },
+        {
+            question: "3 x 9",
+            result: 27,
+            selects: [27, 29, 25]
+        },
+        {
+            question: "9 x 2",
+            result: 18,
+            selects: [16, 20, 18]
         }
+        
+
         
         
 
