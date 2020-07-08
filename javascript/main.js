@@ -11,9 +11,9 @@ class main {
         
         document.body.appendChild(this.tag);
     }
-    initPause(){
-        this.game.initPause();
-    }
+    // initPause(){
+    //     this.game.initPause();
+    // }
     initGame(){
         this.game = new game(this);
     }

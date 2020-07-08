@@ -38,7 +38,5 @@ class bubble {
                              
         }, 50);
     }
-    checkTop() {
-        return this.tag.offsetTop < -100;
-    }
+    
 }
