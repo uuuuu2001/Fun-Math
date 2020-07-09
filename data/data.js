@@ -84,8 +84,77 @@ var data = {
             question: "9 x 2",
             result: 18,
             selects: [16, 20, 18]
-        }
-        
+        },
+        {
+            question: "9 x 5",
+            result: 45,
+            selects: [45, 49, 47]
+        },
+        {
+            question: "33 - 17",
+            result: 16,
+            selects: [16, 20, 18]
+        },
+        {
+            question: "23 + 18",
+            result: 41,
+            selects: [41, 43, 45]
+        },
+        {
+            question: "7 x 8",
+            result: 56,
+            selects: [56, 54, 52]
+        },
+        {
+            question: "7 x 2",
+            result: 14,
+            selects: [14, 16, 18]
+        },
+        {
+            question: "17 + 15",
+            result: 32,
+            selects: [30, 32, 34]
+        },
+        {
+            question: "23 - 17",
+            result: 6,
+            selects: [2, 4, 6]
+        },
+        {
+            question: "9 x 2",
+            result: 18,
+            selects: [16, 20, 18]
+        },
+        {
+            question: "13 x 5",
+            result: 65,
+            selects: [65, 63, 67]
+        },
+        {
+            question: "12 x 3",
+            result: 36,
+            selects: [36, 34, 38]
+        },
+        {
+            question: "3 x 17",
+            result: 54,
+            selects: [54, 52, 56]
+        },
+        {
+            question: "37 - 19",
+            result: 18,
+            selects: [16, 20, 18]
+        },
+        {
+            question: "16 + 7",
+            result: 23,
+            selects: [21, 23, 25]
+        },
+        {
+            question: "14 + 3",
+            result: 17,
+            selects: [17, 19, 21]
+        },
 
         
         
