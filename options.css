@@ -1,0 +1,58 @@
+.options-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 700px;
+    /* opacity: 80%; */
+    position: absolute;
+    display: none;
+}
+.options {
+    background-image: url('./assets/options-board-2.png');
+    background-size: cover;
+    width: 250px;
+    height: 368px;
+ 
+    margin-top: 185px;
+    margin-left: 75px;
+    position: absolute;
+}
+.button-grp-0 {
+    margin-top: 80px !important;
+    margin: auto;
+    width: 165px;
+    height: 210px;
+}
+.easy-icon {
+    display: inline-block;
+    background-image: url('./assets/easy-icon.png');
+    background-size: cover;
+    width: 146px;
+    height: 45px;
+}
+.standard-icon {
+    background-image: url('./assets/standard-icon.png');
+    background-size: cover;
+    width: 146px;
+    height: 45px !important;
+    display: inline-block;
+}
+.geek-icon {
+    background-image: url('./assets/geek-icon.png');
+    background-size: cover;
+    width: 146px;
+    height: 45px !important;
+    display: inline-block;
+}
+.time-table-icon {
+    background-image: url('./assets/time-table-icon.png');
+    background-size: cover;
+    width: 146px;
+    display: inline-block;
+    height: 45px;
+}
+.animation-frame {
+    display: block !important;
+}
+.animation-frame-1 {
+    display: none !important;
+}

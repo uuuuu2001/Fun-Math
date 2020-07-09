@@ -1,0 +1,66 @@
+.gob-bg {
+    background-color: rgb(64, 85, 114, 0.5);
+    width: 400px;
+    height: 700px;
+    /* opacity: 80%; */
+    position: absolute;
+}
+.game-over-board {
+    background-image: url('./assets/game-over-board.png');
+    width: 250px;
+    height: 320px;
+    background-size: cover;
+    top: 190px;
+    left: 75px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+}
+.score {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+.best-score-1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(86, 255, 44);
+    text-align: center;
+}
+.game-mode {
+    font-size: 20px;
+    color:blue;
+    text-align: center;
+    font-weight: bold;
+}
+.button-grp-1 {
+    width: 225px;
+    height: 75px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.share-icon {
+    background-image: url('./assets/share-icon.png');
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-size: cover;
+    display: inline-block;
+}
+.video-icon {
+    background-image: url('./assets/video-icon.png');
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    background-size: cover;
+    display: inline-block;
+}
+.start-link-icon {
+    background-image: url('./assets/start-link-icon.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    display: inline-block;
+}

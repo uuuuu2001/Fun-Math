@@ -1,0 +1,48 @@
+.pause-board-bg {
+    background-color: rgb(64, 85, 114, 0.5);
+    width: 400px;
+    height: 700px;
+    position: relative;
+}
+.pause-board {
+    background-image: url('./assets/pause-board.png');
+    width: 250px;
+    height: 235px;
+    background-size: cover;
+    top: 220px;
+    left: 75px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    
+}
+.button-grp {
+    width: 225px;
+    height: 75px;
+    display: inline-block;
+    margin-top: 100px;
+    /* text-align: center; */
+}
+.home-icon {
+    background-image: url('./assets/home-icon.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-right: 10px;
+    display: inline-block;
+}
+.resume-icon {
+    background-image: url('./assets/resume-icon.png');
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin-right: 10px;
+    display: inline-block;
+}
+.reverse-icon {
+    background-image: url('./assets/reverse-icon.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    display: inline-block;
+}
