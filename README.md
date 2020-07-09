@@ -5,4 +5,5 @@ II. TỔNG QUÁT:
 1. Công nghệ:
 - Mã nguồn trò chơi sử dụng các ngôn ngữ lập trình HTML, CSS và JAVASCRIPT.
 2. Cách sử dụng:
+- Truy cập link git-page https://uuuuu2001.github.io/Fun-Math/
 - Clone mã nguồn của game về và mở file index.html để chơi trò chơi.
