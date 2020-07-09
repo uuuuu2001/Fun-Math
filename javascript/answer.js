@@ -14,6 +14,7 @@ class answer {
     }
     setMouseClick() {
         this.tag.addEventListener('click', (event) => {
+            this.game.main.clickSound();
             this.tag.classList.add('active');
             this.game.check(this.text);
         })
