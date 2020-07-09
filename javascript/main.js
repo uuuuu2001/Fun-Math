@@ -26,6 +26,9 @@ class main {
         this.game_music.play();
         this.game_music.loop = true;
     }
+    pauseMusic() {
+        this.game_music.pause();
+    }
     clickSound() {
         if(this.soundStatus == true) {
             this.click_sound.play();
